@@ -1,0 +1,31 @@
+feature,group,justification
+Lagging_Current_Reactive.Power_kVarh_t,Lagged electrical,"measured at t, i.e. one step before the target; the t+1 value is never used"
+Leading_Current_Reactive_Power_kVarh_t,Lagged electrical,"measured at t, i.e. one step before the target; the t+1 value is never used"
+Lagging_Current_Power_Factor_t,Lagged electrical,"measured at t, i.e. one step before the target; the t+1 value is never used"
+Leading_Current_Power_Factor_t,Lagged electrical,"measured at t, i.e. one step before the target; the t+1 value is never used"
+tod_sin_t,Calendar,deterministic from the timestamp at t
+tod_cos_t,Calendar,deterministic from the timestamp at t
+hour_t,Calendar,deterministic from the timestamp at t
+nsm_t,Calendar,deterministic from the timestamp at t
+month_t,Calendar,deterministic from the timestamp at t
+is_weekend_t,Calendar,deterministic from the timestamp at t
+dow_Monday_t,Calendar,deterministic from the timestamp at t
+dow_Tuesday_t,Calendar,deterministic from the timestamp at t
+dow_Wednesday_t,Calendar,deterministic from the timestamp at t
+dow_Thursday_t,Calendar,deterministic from the timestamp at t
+dow_Friday_t,Calendar,deterministic from the timestamp at t
+dow_Saturday_t,Calendar,deterministic from the timestamp at t
+dow_Sunday_t,Calendar,deterministic from the timestamp at t
+load_Light_Load_t,Operational (lagged),"load type at t, lagged so no t+1 information enters"
+load_Medium_Load_t,Operational (lagged),"load type at t, lagged so no t+1 information enters"
+load_Maximum_Load_t,Operational (lagged),"load type at t, lagged so no t+1 information enters"
+y_lag0,Autoregressive,"y(t), last observed value"
+y_lag1,Autoregressive,y(t-1)
+y_lag2,Autoregressive,y(t-2)
+y_lag3,Autoregressive,y(t-3)
+y_lag95,Autoregressive,y(t-95): same time yesterday relative to t+1
+y_roll_mean4,Rolling,mean of y(t-3..t)
+y_roll_std4,Rolling,std of y(t-3..t)
+y_roll_mean96,Rolling,mean of y(t-95..t)
+y_roll_std96,Rolling,std of y(t-95..t)
+CO2(tCO2),Excluded,derived from Usage_kWh; would leak the target

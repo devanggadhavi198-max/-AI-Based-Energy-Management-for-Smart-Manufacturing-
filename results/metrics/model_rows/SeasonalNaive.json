@@ -1,0 +1,9 @@
+{
+ "model": "SeasonalNaive",
+ "MAE": 14.452844334223578,
+ "RMSE": 26.795713299348982,
+ "R2": 0.2616289105252493,
+ "CV_RMSE_pct": 108.96799930737691,
+ "train_seconds": 0.0,
+ "family": "Baseline"
+}

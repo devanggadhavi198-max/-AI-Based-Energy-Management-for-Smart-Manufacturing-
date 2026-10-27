@@ -1,0 +1,10 @@
+item,value,note
+Source,"UCI Machine Learning Repository, ID 851",
+Licence,CC BY 4.0,
+Records,35040,
+Period,2018-01-01 00:15:00 to 2019-01-01 00:00:00,
+Resolution,15min,
+Duplicate timestamps,0,
+Irregular time steps,0,
+Missing values,0,
+Midnight readings moved to next day,365,00:00 reading closes the previous day

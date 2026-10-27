@@ -1,0 +1,11 @@
+parameter,assumption
+Tariff structure,"two-band time-of-use: peak 0.3 EUR/kWh, off-peak 0.15 EUR/kWh"
+Peak window,weekdays 08:00-20:00
+Emission factor,"0.42 kg CO2/kWh, constant"
+Flexible load,intervals with Load_Type = Light_Load inside the peak window
+Shiftable share (headline),"20% of min(predicted, actual) flexible load"
+Temporal constraint,reallocation within the same calendar day only
+Capacity constraint,no interval above the maximum observed in the training partition
+Reallocation rule,valley filling: off-peak intervals of the same day raised to a common predicted level
+Sensitivity: shares,"10%, 20%, 30%"
+Sensitivity: tariffs,0.25/0.15 EUR/kWh; 0.35/0.1 EUR/kWh

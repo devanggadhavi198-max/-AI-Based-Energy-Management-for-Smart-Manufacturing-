@@ -1,0 +1,30 @@
+model,hyperparameter,value,searched_values
+RandomForest,n_estimators,400,"200, 400"
+RandomForest,max_depth,20,"10, 20, None"
+RandomForest,min_samples_leaf,5,"1, 5"
+XGBoost,n_estimators,300,"300, 600"
+XGBoost,max_depth,6,"4, 6, 8"
+XGBoost,learning_rate,0.05,"0.05, 0.1"
+LinearRegression,fit_intercept,True,-
+LSTM,recurrent_layers,1,-
+LSTM,units,64,-
+LSTM,dropout,0.2,-
+LSTM,optimizer,Adam,-
+LSTM,learning_rate,0.001,-
+LSTM,batch_size,256,-
+LSTM,loss,MSE,-
+LSTM,max_epochs,60,-
+LSTM,early_stopping_patience,6,-
+LSTM,window_steps,96,-
+LSTM,seeds,42 43 44,-
+BiLSTM,recurrent_layers,1,-
+BiLSTM,units,64,-
+BiLSTM,dropout,0.2,-
+BiLSTM,optimizer,Adam,-
+BiLSTM,learning_rate,0.001,-
+BiLSTM,batch_size,256,-
+BiLSTM,loss,MSE,-
+BiLSTM,max_epochs,60,-
+BiLSTM,early_stopping_patience,6,-
+BiLSTM,window_steps,96,-
+BiLSTM,seeds,42 43 44,-

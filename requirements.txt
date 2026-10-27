@@ -1,0 +1,14 @@
+# versions used for every result in the thesis (also written to results/metrics/run_info.csv); Python 3.12
+pandas==3.0.6
+numpy==2.5.3
+scikit-learn==1.9.1
+xgboost==3.4.1
+tensorflow==2.21.0
+keras==3.15.1
+matplotlib==3.11.2
+seaborn==0.13.2
+ucimlrepo==0.0.7
+pytest==9.1.1
+jupyter==1.1.1
+streamlit==1.64.0
+plotly==7.1.0

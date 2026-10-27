@@ -1,0 +1,9 @@
+{
+ "model": "Persistence",
+ "MAE": 5.013632201449828,
+ "RMSE": 11.618854657662894,
+ "R2": 0.8611740426388776,
+ "CV_RMSE_pct": 47.24947353125634,
+ "train_seconds": 0.0,
+ "family": "Baseline"
+}

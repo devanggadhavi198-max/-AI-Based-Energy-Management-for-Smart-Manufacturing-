@@ -1,0 +1,10 @@
+item,value
+model,RandomForest
+test_days,55
+intervals,5242
+peak_intervals,1866
+flexible_peak_intervals,240
+flexible_peak_energy_kwh,9441.49
+ceiling_kwh,153.14
+days_with_shift,38
+max_daily_energy_error_kwh,4.547473508864641e-13

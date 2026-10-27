@@ -1,0 +1,12 @@
+item,value
+mean_weekday_kwh,33.62472701149425
+mean_weekend_kwh,11.73232672275641
+mean_weekday_08_20_kwh,57.54717512771392
+mean_weekday_20_08_kwh,9.702278895274585
+mean_weekend_08_20_kwh,18.607301682692306
+share_energy_weekday_08_20_pct,75.12749382003112
+share_light_load_in_weekday_08_20_pct,12.899106002554278
+share_light_load_outside_weekday_08_20_pct,73.09879175550817
+mean_kwh_light_load,8.626206839309429
+mean_kwh_medium_load,38.44539397689769
+mean_kwh_maximum_load,59.26531353135314
